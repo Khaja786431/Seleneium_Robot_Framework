@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on darwin)" generated="2024-08-27T19:00:04.499304" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="/Users/khajavali.dudekula/PycharmProjects/PYTHON_LEARNINGS/RobotFramework/TestCases">
+<suite id="s1-s1" name="TC 001" source="/Users/khajavali.dudekula/PycharmProjects/PYTHON_LEARNINGS/RobotFramework/TestCases/TC_001.robot">
+<test id="s1-s1-t1" name="TC_001 Browser Start and Verify title" line="16">
+<kw name="Open And Verify Browser">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-27T19:00:04.595547" level="INFO">Opening browser 'Chrome' to base url 'https://admin-demo.nopcommerce.com/login'.</msg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-27T19:00:04.595448" elapsed="7.335255"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-08-27T19:00:11.941461" level="INFO">Current page contains text 'Admin area demo'.</msg>
+<arg>Admin area demo</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-08-27T19:00:11.931288" elapsed="0.010227"/>
+</kw>
+<doc>Opens the browser, verifies the page title, and performs initial checks.</doc>
+<status status="PASS" start="2024-08-27T19:00:04.595157" elapsed="7.346440"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-27T19:00:11.941722" elapsed="0.084187"/>
+</kw>
+<doc>This test case uses the custom keyword to open and verify the page title.</doc>
+<tag>Smoke</tag>
+<status status="PASS" start="2024-08-27T19:00:04.594902" elapsed="7.431211"/>
+</test>
+<meta name="Author Khajavali"/>
+<status status="PASS" start="2024-08-27T19:00:04.528693" elapsed="7.497715"/>
+</suite>
+<status status="PASS" start="2024-08-27T19:00:04.499847" elapsed="7.526808"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestCases">TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 001">TestCases.TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

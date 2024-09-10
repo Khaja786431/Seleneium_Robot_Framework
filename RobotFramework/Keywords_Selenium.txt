@@ -1,0 +1,38 @@
+~~~~~~~~~~~~Browser Control:
+Open Browser: Opens a new browser instance
+Close Browser: Closes the current browser instance
+Set Browser Window Size: Set the size of the current browser window
+Maximize Browser Window: Maximize the current browser window
+~~~~~~~~~~~~Navigation:
+Go To:- Navigates to a specific URL.
+Back:- Navigates back in the browser's history.
+Forward:- Navigates forward in the browser's history.
+Refresh Page:- Refreshes the current page.
+~~~~~~~~~~~~Element Interaction:
+Click Element:- Clicks an element identified by its locator.
+Input Text:- Types text into a text field.
+Clear Field:- Clears the text from a text field.
+Select From List By Value:- Selects an option from a dropdown by its value.
+Select From List By Label:- Selects an option from a dropdown by its visible label.
+~~~~~~~~~~~~Assertions:
+Element Should Contain:- Asserts that an element contains specific text.
+Element Should Not Contain:- Asserts that an element does not contain specific text.
+Page Should Contain:- Asserts that the page contains specific text.
+Page Should Not Contain:- Asserts that the page does not contain specific text.
+~~~~~~~~~~~~Window and Frame Management:
+Switch Window:- Switches to a different window or tab.
+Switch Frame:- Switches to a different frame or iframe.
+Unselect Frame:- Switches back to the default frame.
+~~~~~~~~~~~~Alerts and Popups:
+Handle Alert:- Handles an alert popup (accept or dismiss).
+Handle Confirm:- Handles a confirmation popup (accept or dismiss).
+Handle Prompt:- Handles a prompt popup (input text and accept or dismiss).
+~~~~~~~~~~~~JavaScript Execution:
+Execute JavaScript:- Executes custom JavaScript code on the page.
+~~~~~~~~~~~~Waits:
+Wait Until Element Is Visible:- Waits until an element becomes visible.
+Wait Until Element Is Not Visible:- Waits until an element is no longer visible.
+Wait Until Page Contains:- Waits until the page contains specific text.
+~~~~~~~~~~~Screenshots:
+Capture Page Screenshot:- Takes a screenshot of the current page.
+Capture Element Screenshot:- Takes a screenshot of a specific element.
